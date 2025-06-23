@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Super league</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="styl.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <style>
+    .main-content {
+      padding-top: 60px;
+    }
+    .card-img-top {
+      max-height: 200px;
+      object-fit: cover;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+  <div class="container">
+    <a class="navbar-brand" href="#">SailifeSports</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link active" href="index.html">Home</a>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="featuresDropdown" role="button"
+            data-bs-toggle="dropdown" aria-expanded="false">
+           Basketball
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="featuresDropdown">
+            <li><a class="dropdown-item" href="superleague.html">MBA Super League</a></li>
+            <li><a class="dropdown-item" href="femine.html">MBA Femine League</a></li>
+            <li><a class="dropdown-item" href="cbamensleague.html">CBA Mens League</a></li>
+            <li><a class="dropdown-item" href="cbawomen.html">CBA Women’s League</a></li>
+            <li><a class="dropdown-item" href="b_league.html">MBA B League</a></li>
+            <li><a class="dropdown-item" href="cbableague.html">CBA B League</a></li>
+            <li><a class="dropdown-item" href="bsf.html">BSF Tournament</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="featuresDropdown" role="button"
+            data-bs-toggle="dropdown" aria-expanded="false">
+               Netball
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="featuresDropdown">
+            <li><a class="dropdown-item" href="copperbeltnl.html">Copperbelt Netball League</a></li>
+            <li><a class="dropdown-item" href="leagueone.html">League One</a></li>
+            <li><a class="dropdown-item" href="leaguetwo.html">League Two</a></li>
+          </ul>
+        </li>
+        
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button"
+            data-bs-toggle="dropdown" aria-expanded="false">
+               Volleyball
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+            <li><a class="dropdown-item" href="national_leaguev.html">National league</a></li>
+            <li><a class="dropdown-item" href="national_leaguevl.html">Ladies National League</a></li>
+            <li><a class="dropdown-item" href="#">Custom Development</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="featuresDropdown" role="button"
+            data-bs-toggle="dropdown" aria-expanded="false">
+          Rugby
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="featuresDropdown">
+            <li><a class="dropdown-item" href="nationalleaguer.html">ZRU National league</a></li>
+            <li><a class="dropdown-item" href="presientsleague.html">ZRU Presidents league</a></li>
+            <li><a class="dropdown-item" href="womensleague.html">ZRU Womens League</a></li>
+            <li><a class="dropdown-item" href="community7s.html">Community Varsity 7s</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="featuresDropdown" role="button"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            Cricket
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="featuresDropdown">
+            <li><a class="dropdown-item" href="#">MBA Super league</a></li>
+            <li><a class="dropdown-item" href="#">MBA Femine league</a></li>
+            <li><a class="dropdown-item" href="#">MBA B league</a></li>
+          </ul>
+        </li>
+
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="featuresDropdown" role="button"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            More
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="featuresDropdown">
+            <li><a class="dropdown-item" href="#">Boxing</a></li>
+            <li><a class="dropdown-item" href="#">Martial Arts</a></li>
+            <li><a class="dropdown-item" href="#">Athletics</a></li>
+             <li><a class="dropdown-item" href="#">Body building</a></li>
+          </ul>
+        </li>
+
+
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+  <!-- Main Content -->
+  <main class="container main-content">
+    <div class="text-center mb-5">
+
+      <section class="league-header">
+  <div class="league-container">
+    <img src="image/logos/mbaleague.jpg" alt="Basketball Super League Logo" class="league-logo" />
+    <div class="league-info">
+      <h1>Basketball Super League</h1>
+      <p class="tagline">Zambia's Premier Basketball Competition</p>
+      <span class="season">2024/2025 Season</span>
+    </div>
+  </div>
+</section>
+
+<section class="news-section">
+  <h2 class="section-title">Latest News</h2>
+  <div class="news-grid">
+    <div class="news-card">
+      <img src="news1.jpg" alt="News 1">
+      <div class="news-content">
+        <h3>Basketball Super League kicks off this weekend</h3>
+        <p>The long-awaited league begins with exciting fixtures lined up across the country.</p>
+        <a href="#">Read More →</a>
+      </div>
+    </div>
+    <div class="news-card">
+      <img src="news2.jpg" alt="News 2">
+      <div class="news-content">
+        <h3>Zambia U23 set for regional qualifiers</h3>
+        <p>The team is ready to represent the country in the upcoming COSAFA tournament.</p>
+        <a href="#">Read More →</a>
+      </div>
+    </div>
+    <!-- Add more news cards as needed -->
+  </div>
+</section>
+
+
+<section class="fixtures-results">
+  <div class="tabs">
+    <button class="tab active" onclick="switchTab('fixtures')">Fixtures</button>
+    <button class="tab" onclick="switchTab('results')">Results</button>
+  </div>
+
+  <div class="tab-content" id="fixtures">
+  <div class="match">
+    <div class="team-info">
+      <img src="image/logos/napsabb.jpg" alt="Team 1" class="team-logo">
+      <span class="teams">Napsa Hurricanes vs Nkana FC</span>
+      <img src="team1-logo.png" alt="Team 1" class="team-logo">
+    </div>
+    <div>
+      <div class="date">12 June 2025 | Nasdec </div>
+      <a href="#" class="ticket-link">Buy Tickets</a>
+    </div>
+  </div>
+
+<div class="match">
+    <div class="team-info">
+      <img src="image/logos/redarrows.jpg" alt="Team 2" class="team-logo">
+      <span class="teams">Red Arrows vs Green Buffaloes</span>
+      <img src="image/logos/greenbuffaloes.jpg" alt="Team 2" class="team-logo">
+    </div>
+    <div>
+      <div class="date">15 June 2025 | Nasdec</div>
+      <a href="#" class="ticket-link">Buy Tickets</a>
+    </div>
+  </div>
+</div>
+  <div class="tab-content hidden" id="results">
+    <div class="match">
+       <div class="team-info">
+      <img src="image/logos/looters.jpg" alt="Team 2" class="team-logo">
+      <span class="teams">LCC Looters 19 - 25 Bulldogs</span>
+      <img src="image/logos/bulldogs.jpg" alt="Team 2" class="team-logo">
+      <span class="date">Nasdec, June 8, 2025</span>
+    </div>
+    <div class="match">
+       <div class="team-info">
+      <img src="image/logos/huskies.jpg" alt="Team 2" class="team-logo">
+      <span class="teams">Huskies 65 - 76 Matero Magic</span>
+      <img src="image/logos/materomagic.jpg" alt="Team 2" class="team-logo">
+      <span class="date">June 7, 2025</span>
+    </div>
+  </div>
+</section>
+
+<section class="league-standings-section">
+  <div class="section-title">
+    <h2>League Standings</h2>
+  </div>
+
+  <div class="standings-table-wrapper">
+    <table class="standings-table sortable" id="standingsTable">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Team</th>
+          <th>P</th>
+          <th>W</th>
+          <th>L</th>
+          <th>PTS</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Lusaka Basket Kings</td>
+          <td>12</td>
+          <td>10</td>
+          <td>2</td>
+          <td>30</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Matero Magic</td>
+          <td>12</td>
+          <td>9</td>
+          <td>3</td>
+          <td>27</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Munali Suns</td>
+          <td>12</td>
+          <td>8</td>
+          <td>4</td>
+          <td>24</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>Bulldogs</td>
+          <td>12</td>
+          <td>6</td>
+          <td>6</td>
+          <td>18</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>Huskies</td>
+          <td>12</td>
+          <td>4</td>
+          <td>8</td>
+          <td>12</td>
+        </tr>
+        <tr>
+          <td>6</td>
+          <td>Napsa Hurricanes</td>
+          <td>12</td>
+          <td>2</td>
+          <td>10</td>
+          <td>6</td>
+        </tr>
+        <tr>
+          <td>7</td>
+          <td>Green Buffaloes</td>
+          <td>12</td>
+          <td>2</td>
+          <td>10</td>
+          <td>6</td>
+        </tr>
+        <tr>
+          <td>8</td>
+          <td>LCC looters</td>
+          <td>12</td>
+          <td>2</td>
+          <td>10</td>
+          <td>6</td>
+        </tr>
+
+        <tr>
+          <td>9</td>
+          <td>Red Arrows</td>
+          <td>12</td>
+          <td>2</td>
+          <td>10</td>
+          <td>6</td>
+        </tr>
+
+        <tr>
+          <td>10</td>
+          <td>KCM Giants</td>
+          <td>12</td>
+          <td>2</td>
+          <td>10</td>
+          <td>6</td>
+        </tr> 
+ <tr>
+          <td>11</td>
+          <td>Hawks</td>
+          <td>12</td>
+          <td>2</td>
+          <td>10</td>
+          <td>6</td>
+        </tr>
+
+         <tr>
+          <td>12</td>
+          <td>KCM Giants</td>
+          <td>12</td>
+          <td>2</td>
+          <td>10</td>
+          <td>6</td>
+        </tr>
+
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section class="team-profiles-section">
+  <h2 class="section-title">Basketball Super League Teams</h2>
+  <div class="teams-grid">
+    <div class="team-card">
+      <img src="image/logos/materomagic.jpg" alt="Team 1 Logo" class="team-logo">
+      <h3 class="team-name">Matero Magics</h3>
+      <p class="team-desc">Top contenders known for high pace play and deep shooting.</p>
+      <a href="team1.html" class="team-btn">View Profile</a>
+    </div>
+
+    <div class="team-card">
+      <img src="image/logos/bulldogs.jpg" alt="Team 2 Logo" class="team-logo">
+      <h3 class="team-name">Bulldogs</h3>
+      <p class="team-desc">Defensive masters with a strong presence in the paint.</p>
+      <a href="team2.html" class="team-btn">View Profile</a>
+    </div>
+
+    <!-- Add more team cards as needed -->
+  </div>
+</section>
+
+<section class="top-scorers-section">
+  <h2 class="section-title">Dunk Master</h2>
+  <table class="scorers-table">
+    <thead>
+      <tr>
+        <th>Rank</th>
+        <th>Player</th>
+        <th>Team</th>
+        <th>Dunks</th>
+        <th>Games</th>
+        <th>PPG</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>John Banda</td>
+        <td>Lusaka Legends</td>
+        <td>245</td>
+        <td>10</td>
+        <td>24.5</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Mike Zulu</td>
+        <td>Copperbelt Kings</td>
+        <td>220</td>
+        <td>10</td>
+        <td>22.0</td>
+      </tr>
+      <!-- Add more rows as needed -->
+    </tbody>
+  </table>
+</section>
+
+<section class="top-scorers-section">
+  <h2 class="section-title">Sharp Shooter</h2>
+  <table class="scorers-table">
+    <thead>
+      <tr>
+        <th>Rank</th>
+        <th>Player</th>
+        <th>Team</th>
+        <th>Points</th>
+        <th>Games</th>
+        <th>3s</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>John Banda</td>
+        <td>Lusaka Legends</td>
+        <td>245</td>
+        <td>10</td>
+        <td>24.5</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Mike Zulu</td>
+        <td>Copperbelt Kings</td>
+        <td>220</td>
+        <td>10</td>
+        <td>22.0</td>
+      </tr>
+      <!-- Add more rows as needed -->
+    </tbody>
+  </table>
+</section>
+
+<section class="top-scorers-section">
+  <h2 class="section-title">Top Assist</h2>
+  <table class="scorers-table">
+    <thead>
+      <tr>
+        <th>Rank</th>
+        <th>Player</th>
+        <th>Team</th>
+        <th>Assist</th>
+        <th>Games</th>
+        <th>PPG</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>John Banda</td>
+        <td>Lusaka Legends</td>
+        <td>245</td>
+        <td>10</td>
+        <td>24.5</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Mike Zulu</td>
+        <td>Copperbelt Kings</td>
+        <td>220</td>
+        <td>10</td>
+        <td>22.0</td>
+      </tr>
+      <!-- Add more rows as needed -->
+    </tbody>
+  </table>
+</section>
+
+
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p class="mb-0">&copy; 2025 Sailife Sports. All rights reserved.</p>
+      <div class="social-icons">
+    <a href="https://www.facebook.com/profile.php?id=100057015327300" target="_blank">
+      <i class="fab fa-facebook-f"></i>
+    </a>
+    <a href="https://www.instagram.com/sailifesports/" target="_blank">
+      <i class="fab fa-instagram"></i>
+    </a>
+    <a href="https://twitter.com/your_handle" target="_blank">
+      <i class="fab fa-x-twitter"></i>
+    </a>
+    <a href="https://www.youtube.com/@SailifeSports" target="_blank">
+  <i class="fab fa-youtube"></i>
+</a>
+    <!-- Add more as needed -->
+  
+    </div>
+  </footer>
+<script>
+  const tabs = document.querySelectorAll('.tab');
+  const contents = document.querySelectorAll('.tab-content');
+
+  tabs.forEach((tab, index) => {
+    tab.addEventListener('click', () => {
+      tabs.forEach(t => t.classList.remove('active'));
+      contents.forEach(c => {
+        c.classList.remove('active');
+        c.classList.add('hidden');
+      });
+
+      tab.classList.add('active');
+      contents[index].classList.remove('hidden');
+      setTimeout(() => contents[index].classList.add('active'), 10);
+    });
+  });
+</script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const table = document.getElementById("standingsTable");
+    const headers = table.querySelectorAll("th");
+
+    headers.forEach((header, index) => {
+      header.addEventListener("click", () => {
+        sortTableByColumn(table, index);
+      });
+    });
+
+    function sortTableByColumn(table, column, asc = true) {
+      const dirModifier = asc ? 1 : -1;
+      const tBody = table.tBodies[0];
+      const rows = Array.from(tBody.querySelectorAll("tr"));
+
+      const sortedRows = rows.sort((a, b) => {
+        const aColText = a.querySelectorAll("td")[column].textContent.trim();
+        const bColText = b.querySelectorAll("td")[column].textContent.trim();
+
+        return !isNaN(aColText) && !isNaN(bColText)
+          ? (parseInt(aColText) - parseInt(bColText)) * dirModifier
+          : aColText.localeCompare(bColText) * dirModifier;
+      });
+
+      while (tBody.firstChild) {
+        tBody.removeChild(tBody.firstChild);
+      }
+
+      tBody.append(...sortedRows);
+
+      // Re-color after sorting
+      Array.from(tBody.rows).forEach((row, i, arr) => {
+        row.style.backgroundColor = "";
+        if (i === 0) row.style.backgroundColor = "#d0f0d0";
+        else if (i === 1) row.style.backgroundColor = "#d0e8ff";
+        else if (i === 2) row.style.backgroundColor = "#e0f7fa";
+        else if (i >= arr.length - 2) row.style.backgroundColor = "#ffe0e0";
+      });
+    }
+  });
+</script>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
